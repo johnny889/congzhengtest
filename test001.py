@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import unittest
-class Blog(unittest.TestCase):
+class Blog(unittest..TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.get("http://www.cnblogs.com/yoyoketang")
